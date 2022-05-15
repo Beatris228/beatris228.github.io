@@ -352,7 +352,7 @@ input, select, textarea {
 	  }
 	  .experience-container {
 		  justify-content: flex-start !important;
-		  margin-top: 5rem !important;
+		  margin-top: 3.8rem !important;
 	  }
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -601,7 +601,33 @@ input, select, textarea {
 		}
 
 	}
-
+/* Header */
+.header {
+	width: fit-content;
+	position: fixed;
+	bottom: 87.2%;
+	left: 35%;
+}
+.header-container{
+	width: 100%;
+	margin: 0 auto; 
+}
+.header-container a {
+	color: #fff;
+	font-weight:400 ;
+	text-decoration: none !important;
+	padding: 7px 25px;
+	display: inline-block;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	background-color: #4c3f5c;
+	cursor: pointer;
+	box-shadow: 10px 0 5px -2px #888;
+}
+.header-container a:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 0 5px 0px #888;
+}
 /* Form */
 
 	form {
